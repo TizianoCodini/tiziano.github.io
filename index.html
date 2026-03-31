@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiziano Streetwear</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+    }
+
+    header {
+      padding: 25px;
+      text-align: center;
+      background: #000;
+      border-bottom: 1px solid #222;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 3px;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #0f0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      border-left: 4px solid #0f0;
+      padding-left: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .item {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.04);
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .item h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+    }
+
+    .price {
+      color: #0f0;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      display: inline-block;
+      padding: 10px 14px;
+      background: #0f0;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .contact:hover {
+      background: #b6ffb6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>TIZIANO STREETWEAR</h1>
+  <nav>
+    <a href="#scarpe">Scarpe / Shoes</a>
+    <a href="#felpe">Felpe / Hoodies</a>
+    <a href="#pantaloni">Pantaloni / Pants</a>
+    <a href="#tute">Tute / Tracksuits</a>
+    <a href="#accessori">Accessori / Accessories</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- SCARPE -->
+  <h2 id="scarpe">Scarpe / Shoes</h2>
+  <div class="grid">
+
+    <div class="item">
+      <img src="shoe1.jpg" alt="Scarpa 1">
+      <h3>Nike Dunk Low</h3>
+      <p class="price">€180</p>
+      <a class="contact" href="https://wa.me/NUMERO">Contact me</a>
+    </div>
+
+  </div>
+
+  <!-- FELPE -->
+  <h2 id="felpe">Felpe / Hoodies</h2>
+  <div class="grid">
+
+    <div class="item">
+      <img src="hoodie1.jpg" alt="Felpa 1">
+      <h3>Supreme Hoodie</h3>
+      <p class="price">€120</p>
+      <a class="contact" href="https://wa.me/NUMERO">Contact me</a>
+    </div>
+
+  </div>
+
+  <!-- PANTALONI -->
+  <h2 id="pantaloni">Pantaloni / Pants</h2>
+  <div class="grid">
+
+    <div class="item">
+      <img src="pants1.jpg" alt="Pantalone 1">
+      <h3>Cargo Carhartt</h3>
+      <p class="price">€60</p>
+      <a class="contact" href="https://wa.me/NUMERO">Contact me</a>
+    </div>
+
+  </div>
+
+  <!-- TUTE -->
+  <h2 id="tute">Tute / Tracksuits</h2>
+  <div class="grid">
+
+    <div class="item">
+      <img src="tracksuit1.jpg" alt="Tuta 1">
+      <h3>Adidas Tracksuit</h3>
+      <p class="price">€75</p>
+      <a class="contact" href="https://wa.me/NUMERO">Contact me</a>
+    </div>
+
+  </div>
+
+  <!-- ACCESSORI -->
+  <h2 id="accessori">Accessori / Accessories</h2>
+  <div class="grid">
+
+    <div class="item">
+      <img src="accessory1.jpg" alt="Accessorio 1">
+      <h3>Carhartt Beanie</h3>
+      <p class="price">€25</p>
+      <a class="contact" href="https://wa.me/NUMERO">Contact me</a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2024 Tiziano Streetwear — Direct contact for purchases
+</footer>
+
+</body>
+</html>
